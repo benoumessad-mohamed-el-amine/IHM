@@ -22,7 +22,7 @@ public class KeyDisplay extends Application {
         scene.setOnKeyPressed(new javafx.event.EventHandler<KeyEvent>() {
             @Override
             public void handle(KeyEvent event) {
-                label.setText("Touche pressée : " + event.getText());
+                label.setText("Touche pressée : " + event.getCode());
             }
         });
 
